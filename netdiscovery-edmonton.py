@@ -8,7 +8,11 @@ socket = UDPSocket()
 socket.onReceive(onUDPReceive)
 socket.begin(1235)
 
+<<<<<<< Updated upstream
 network = "10.28.167."
+=======
+network = "10.87.169."
+>>>>>>> Stashed changes
 	
 for host in range(255):
 
